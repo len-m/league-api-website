@@ -36,7 +36,7 @@ To run the website, execute the following command in the root directory:
 npm run dev
 ```
 To run only the frontend execute:
-````bash
+```bash
 npm run client
 ```
 To run only the backend execute:
