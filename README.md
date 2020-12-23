@@ -40,7 +40,7 @@ To run only the frontend execute:
 npm run client
 ```
 To run only the backend execute:
-````bash
+```bash
 npm run server
 ```
 
