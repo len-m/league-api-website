@@ -1,0 +1,41 @@
+body, html, #root {
+  margin: 0;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.home-container {
+  color: white;
+  background-color: rgb(51, 51, 65);
+  flex: 1 1 auto;
+}
+
+.navBar {
+  background-color: rgb(44, 44, 53);
+  min-height: 10vh;
+  flex: 0 1 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navButton {
+  color: white;
+  text-decoration: none;
+}

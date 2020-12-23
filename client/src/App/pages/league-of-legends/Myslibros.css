@@ -1,0 +1,82 @@
+.myslibros-container {
+    color: white;
+    background-color: rgb(51, 51, 65);
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+  }
+
+.league-profile {
+    height: 50vw;
+    max-height: 500px;
+    width:  30vw;
+    display: flex;
+    flex-flow: column;
+    max-width: 460px;
+    margin-bottom: 100px;
+}
+  
+.league-profile-header {
+    flex: 0 1 12vw;
+    background-color: white;
+    color: rgb(44, 44, 53);
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    max-height: 125px;
+}
+  
+.league-profile-header-picture-container {
+    flex: 0 1 12vw;
+    max-width: 132px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.league-profile-picture {
+    width: 10vw;
+    border-radius: 5px;
+    max-width: 106px;
+}
+  
+.league-profile-header-text {
+    font-size: min(1vw, 12px); /*max font-size is 12px*/
+    text-align: left;
+    flex: 1 1 auto;
+}
+  
+.myslibros-header {
+    font-size: 25px;
+}
+  
+.myslibros-content-container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+  
+.row-1, .row-2, .row-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.league-info {
+    flex: 1 1 auto;
+    background-color: rgb(44, 44, 53);
+    color: white;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    font-size: min(1.5vw, 16px);
+}
+
+.rank-picture {
+    width: 11vw;
+    max-width: 100px;
+}
+
+.profile-link {
+    text-decoration: none;
+}
