@@ -85,6 +85,8 @@
     height: 13vw;
     margin: 0.5vw;
     border-radius: 5px;
+    font-size: min(1.5vw, 16px);
+    justify-content: space-between;
 }
 
 .win-loose-indicator-container {
@@ -101,3 +103,79 @@
     border-radius: 5px;
     background-color: brown;
 }
+
+.own-champion-container {
+    flex: 0 1 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.own-champion {
+    width: 10vw;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.kda-container {
+    flex: 0 1 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kda {
+    color: rgb(44, 44, 53);
+}
+
+.champion-summonerspells-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 1.5vw 0;
+    width: 17vw;
+    align-items: center;
+}
+
+.summonerspells-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    max-height: 150px;
+    height: 10vw;
+}
+
+.summonerspell {
+    width: 4.5vw;
+    max-width: 65px;
+    border-radius: 3px;
+}
+
+.participantList-full-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.participantList-container {
+    width: 17vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.participant-container {
+    display: flex;
+    align-items: center;
+}
+
+.participantChampion {
+    max-height: 30px;
+    height: 2vw;
+    padding-right: 1vw;
+}
+
+.participantName {
+    color: rgb(44, 44, 53);
+    font-size: min(1vw, 17px);
+}
+
