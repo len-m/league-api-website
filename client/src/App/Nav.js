@@ -9,8 +9,8 @@ function Nav() {
   return (
     <nav className="navBar">
       <ul className="navLinks">
-        <Link to="/" className="navButton">
-            <li>Home</li>
+        <Link to="/search" className="navButton">
+            <li>Search</li>
         </Link>
         <Link to="/myslibros" className="navButton">
             <li>µslibros</li>

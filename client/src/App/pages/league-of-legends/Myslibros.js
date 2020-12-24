@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 function Myslibros() {
   const names = [["µ", "Not Depression", "Protect Jhin"],
                  ["StrongApe", "DunkTown Xpress", "Big Drip 808"], 
-                 ["ShirosCloud", "KurosCloud", "eQ Sread"]];
+                 ["ShirosCloud", "KurosCloud", "ezy af"]];
 //Warning: Each child in a list should have a unique "key" prop.
     return (
       <div className="myslibros-container">
