@@ -44,10 +44,5 @@ To run only the backend execute:
 npm run server
 ```
 
-## TODO
-
-- create a searchbar to find players
-- finish the matchhistory
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
