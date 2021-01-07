@@ -8,10 +8,6 @@ HTTPS clone:
 ```bash
 git clone https://github.com/len-m/league-api-website.git
 ```
-SSH clone:
-```
-git clone git@github.com:len-m/league-api-website.git
-```
 
 Installing Nodejs
 Manual installation: [Nodejs](https://nodejs.org/en/download/)
